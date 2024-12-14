@@ -95,7 +95,7 @@ section {
 section h1 {
 	color: #800000;
 	font-size: 150%;
-	padding: 0.5em 0 0.25em 0;
+	padding-top: .5em;
 	margin: 0;
 }
 section p {
@@ -106,8 +106,7 @@ section blockquote {
 	font-style: italic;
 }
 section ul {
-	padding: 0 0 0.25em 1.25em;
-        list-style-type: circle;
+	padding: 0 0 .25em 1.25em;
 }
 section li {
 	padding-bottom: .35em;
@@ -115,13 +114,11 @@ section li {
 
 /* the styles for the article */
 article {
-	padding: 0.5em 0;
-        border-top: 2px solid #800000;
-        border-bottom: 2px solid #800000
+	padding: .5em 0;
 }
 article h2 {
 	font-size: 115%;
-	padding-top: 0;
+	padding: 0 0 .25em 0;
 }
 article img {
 	float: right;
@@ -160,29 +157,3 @@ footer p {
 	color: white;
 	padding: 1em 0;
 }
-
-            /* CSS Styles for Float Right */
-            .float-right {
-
-                /* Float elements to the right */
-                float: right;
-
-            }
-
-            /* CSS Styles for Figcaption */
-            .figcaption {
-
-                /* Set font weight and margin for image captions */
-                font-weight: bold;
-                margin-left: 15px;
-
-            }
-
-            /* CSS Styles for Horizontal Rule with Black Border */
-            .hr-black {
-
-                /* Add left margin and set border properties for a black horizontal rule */
-                margin-left: 15px;
-                border: 1px solid black;
-
-            }
